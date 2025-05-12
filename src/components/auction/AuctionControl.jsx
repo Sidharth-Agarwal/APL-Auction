@@ -438,7 +438,7 @@ const AuctionControl = () => {
                     />
                     
                     {/* Action Buttons */}
-                    <div className="flex flex-col justify-between">
+                    <div className="flex flex-col">
                       <div className="grid grid-cols-2 gap-2 mb-2">
                         <Button 
                           variant="success" 
