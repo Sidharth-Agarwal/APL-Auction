@@ -52,14 +52,14 @@ const TeamCard = ({ team, onEdit }) => {
           
           {team.captain && (
             <div className="flex justify-between items-center">
-              <span className="text-gray-600">Team Captain:</span>
+              <span className="text-gray-600">Male Captain:</span>
               <span className="font-bold text-gray-700">{team.captain}</span>
             </div>
           )}
           
           {team.womanCaptain && (
             <div className="flex justify-between items-center">
-              <span className="text-gray-600">Woman Captain:</span>
+              <span className="text-gray-600">Female Captain:</span>
               <span className="font-bold text-gray-700">{team.womanCaptain}</span>
             </div>
           )}
