@@ -74,35 +74,35 @@ const BidControl = ({
         </div>
       </div>
       
-      {/* Quick Increment Buttons */}
+      {/* Quick Increment Buttons - UPDATED VALUES */}
       <div className="grid grid-cols-4 gap-2">
         <Button
           variant="outline"
           size="xs"
-          onClick={() => handleIncrementBid(100)}
+          onClick={() => handleIncrementBid(500000)}
         >
-          +100
+          +5L
         </Button>
         <Button
           variant="outline"
           size="xs"
-          onClick={() => handleIncrementBid(500)}
+          onClick={() => handleIncrementBid(1000000)}
         >
-          +500
+          +10L
         </Button>
         <Button
           variant="outline"
           size="xs"
-          onClick={() => handleIncrementBid(1000)}
+          onClick={() => handleIncrementBid(2000000)}
         >
-          +1000
+          +20L
         </Button>
         <Button
           variant="outline"
           size="xs"
-          onClick={() => handleIncrementBid(5000)}
+          onClick={() => handleIncrementBid(5000000)}
         >
-          +5000
+          +50L
         </Button>
       </div>
       
